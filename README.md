@@ -1,11 +1,11 @@
-# ✈️ British Airways — Data Science Job Simulation
+# British Airways — Data Science Job Simulation
 
 > **Forage Data Science Virtual Experience Program**  
 > Two end-to-end data science tasks completed using real British Airways datasets.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Repository Structure](#repository-structure)
@@ -30,7 +30,7 @@
 
 ## Overview
 
-This repository contains both tasks from the **British Airways Data Science Job Simulation** on [Forage](https://www.theforage.com/). Each task tackles a different real-world business problem using a different analytical approach.
+This repository contains both tasks from the **British Airways Data Science Job Simulation** on [Forage]. Each task tackles a different real-world business problem using a different analytical approach.
 
 | | Task 1 | Task 2 |
 |---|---|---|
@@ -56,7 +56,6 @@ british-airways-data-science/
 │   └── British_Airways_Summer_Schedule_Dataset.xlsx  ← Source dataset
 │
 └── task2_booking_prediction/
-    ├── ba_booking_analysis.py                        ← Standalone Python script (full pipeline)
     ├── BA_Booking_Prediction.ipynb                   ← Jupyter notebook (step-by-step)
     ├── customer_booking.csv                          ← Source dataset
     │
@@ -70,10 +69,9 @@ british-airways-data-science/
     │   ├── 07_feature_importance.png
     │   └── 08_feature_deepdives.png
     │
-    └── outputs/
+    └── insights_ppt/
         ├── BA_Booking_Prediction_Slides.pptx         ← Manager summary (7 slides)
-        ├── model_metrics.csv
-        └── feature_importances.csv
+        
 ```
 
 ---
@@ -92,7 +90,7 @@ British Airways operates lounges at Terminal 3, Heathrow across three tiers:
 
 The business question: **"Given a flight schedule, how many passengers will use each lounge, and when?"** This informs staffing, catering, and capacity planning decisions.
 
-> ⚠️ **Note:** No Concorde Room currently exists at Terminal 3. Tier 1 figures are retained as a hypothetical planning signal — for example, to inform whether a Tier 1 facility might be viable in future.
+> **Note:** No Concorde Room currently exists at Terminal 3. Tier 1 figures are retained as a hypothetical planning signal — for example, to inform whether a Tier 1 facility might be viable in future.
 
 ### Dataset (Task 1)
 
@@ -308,7 +306,7 @@ RandomForestClassifier(
 ## How to Run
 
 ### Task 1
-No code to run. Open `task1_lounge_eligibility/BA_Lounge_Eligibility_Submission.xlsx` in Excel or LibreOffice Calc. All formulas are live and recalculate automatically if you update assumption cells.
+No code to run. Open `task1_lounge_eligibility/BA_Lounge_Eligibility_Submission.xlsx` in Excel. All formulas are live and recalculate automatically if you update assumption cells.
 
 ### Task 2 — Option A: Jupyter Notebook (recommended for step-by-step exploration)
 ```bash
@@ -316,15 +314,7 @@ cd task2_booking_prediction
 pip install -r ../requirements.txt
 jupyter notebook BA_Booking_Prediction.ipynb
 ```
-Run all cells top to bottom. Figures are saved to `figures/`. **Run this before pushing to GitHub** so cell outputs (charts, tables) are embedded in the notebook and visible to anyone who opens the repo.
-
-### Task 2 — Option B: Python Script (recommended for full reproducibility)
-```bash
-cd task2_booking_prediction
-pip install -r ../requirements.txt
-python ba_booking_analysis.py
-```
-Runs the entire pipeline in one shot. All 8 figures saved to `figures/`, metrics saved to `outputs/`.
+Run all cells top to bottom. Figures are saved to `figures/`. 
 
 ---
 
@@ -369,5 +359,5 @@ pip install -r requirements.txt
 
 ## About
 
-Completed as part of the **British Airways Data Science Job Simulation** on [Forage](https://www.theforage.com/simulations/british-airways/data-science-yqoz).  
-The simulation mirrors real analytical work done by the BA data science team.
+Completed as part of the **British Airways Data Science Job Simulation** on [Forage].  
+
