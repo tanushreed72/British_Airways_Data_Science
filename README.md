@@ -64,9 +64,8 @@ british-airways-data-science/
     │   ├── 02_numeric_distributions.png
     │   ├── 03_temporal_patterns.png
     │   ├── 04_addon_booking_rates.png
-    │   ├── 05_cv_performance.png
-    │   ├── 06_roc_pr_curves.png
-    │   ├── 07_feature_importance.png
+    │   ├── 05_roc_pr_curves.png
+    │   ├── 06_feature_importance.png
     │   
     │
     └── insights_ppt/
