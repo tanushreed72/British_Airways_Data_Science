@@ -67,7 +67,7 @@ british-airways-data-science/
     │   ├── 05_cv_performance.png
     │   ├── 06_roc_pr_curves.png
     │   ├── 07_feature_importance.png
-    │   └── 08_feature_deepdives.png
+    │   
     │
     └── insights_ppt/
         ├── BA_Booking_Prediction_Slides.pptx         ← Manager summary (7 slides)
@@ -216,7 +216,7 @@ Raw Data (50,000 rows, 14 columns)
            │
            ▼
    Feature Importance + Visualisations
-   • 8 figures covering EDA, evaluation, and importance
+   • 7 figures covering EDA, evaluation, and importance
 ```
 
 ### Feature Engineering
